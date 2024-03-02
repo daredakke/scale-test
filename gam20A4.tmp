@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cutcyhkixklmf"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_4cbht"]
+[ext_resource type="Texture2D" uid="uid://cgbid5hqlgaof" path="res://3-skyblue.jpg" id="1_icpxl"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_4cbht")
+
+[node name="Camera" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="3-skyblue" type="Sprite2D" parent="."]
+position = Vector2(435, 343)
+texture = ExtResource("1_icpxl")
